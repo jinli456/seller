@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>sellershop</title>
+		<link rel="stylesheet" type="text/css" href="css/Seller_shop.css" />
+		<link rel="stylesheet" href="css/Seller_goods_release.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/Seller_goods_release.js"></script>
+	</head>
+
+	<body>
+		<!--个人中心头部开始-->
+		<div class="gxr_Sellershop_head">
+			<ul class="gxr_Sellershop_logo">
+				<li class="gxr_Sellershop_icon">
+					<img src="img/Seller_shop/logo.png" />
+				</li>
+				<li class="gxr_Sellershop_page">
+					<a data-index="1">首页</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="2">账户设置</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="3">我的店铺</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="4">查看二维码</a><br/>
+				</li>
+			</ul>
+			<img class="gxr_Sellershop_arrow" src="img/Seller_shop/Arrow.png" />
+		</div>
+		<!--个人中心头部结束-->
+		<!--主体部分开始-->
+		<div class="gxr_Sellershop">
+			<ul class="gxr_Sellershop_main">
+				<!--左半部分开始-->
+				<li class="gxr_Sellershop_left">
+					<div class="gxr_Sellershop_class">
+						<dl class="gxr_Sellershop_bpersonal">
+							<!--商品管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Layers.png"/>
+                        <span><b>商品管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品发布</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品列表</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>自定义规格</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--交易管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Tools.png"/>
+                        <span><b>交易管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>已售商品</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>发货地址</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>物流工具</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>我的评论</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--店铺设置-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/shop.png"/>
+                        <span><b>店铺设置</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>店铺设置</a><img src="img/Seller_shop/open.png" /></dd>
+						</dl>
+					</div>
+				</li>
+				<!--左半部分结束-->
+				<!--右半部分开始-->
+				<li class="gxr_Sellershop_right">
+					<div class="gxr_Sellershoptdiv">
+						<!--右上部分开始-->
+						<div class="gxr_shopright_head">
+							<ul class="gxr_shop_rhead">
+								<li class="gxr_Sellershop_info">
+									<img class="gxr_shop_avatar" src="img/Seller_shop/selleravatar.png" />
+									<div class="gxr_shop_state">
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconshop.png" /></div>
+											<span class="gxr_shop_span">店铺：花若兮之卉木萋萋</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconrep.png" /></div>
+											<span class="gxr_shop_spann">店铺信誉：初级
+                                        <span class="gxr_shop_star">
+                                            <img src="img/Seller_shop/iconst.png"/><img src="img/Seller_shop/iconsth.png"/>
+                                        </span>
+											</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconstate.png" /></div>
+											<span class="gxr_shop_spann">店铺状态：已开张，销售中</span>
+										</div>
+										<div class="gxr_shop_list">
+											<span class="gxr_shop_number">上架的商品（<span class="gxr_shop_jian">123</span>）件</span>
+											<span class="gxr_shop_number">已售的商品（<span class="gxr_shop_jian">145</span>）件</span>
+											<span class="gxr_shop_num">买家评价</span>
+										</div>
+									</div>
+								</li>
+								<li class="gxr_Sellershop_dynamic">
+									<div class="gxr_shop_dynamic">
+										<p>店铺动态评分</p>
+										<div class="gxr_shop_branch">
+											<p class="gxr_shop_branchred">9.70</p>
+											<div class="gxr_shop_branchlist">
+												<p>商品：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>服务：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>物流：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/decline.png" /></p>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--右上部分结束-->
+						<!--右下部分开始-->
+						<div class="gxr_Seller_down">
+							<div class="seller_goods_release_title_img">
+								<img src="img/Seller_goods_release/Seller_goods_release.png" alt="" />
+							</div>
+							<div class="seller_goods_release_title_text">
+								<div class="seller_goods_release_title_text_left">第2步</div>
+								<div class="seller_goods_release_title_text_right">填写商品详细信息</div>
+							</div>
+							<div class="zx_basic_information_box">
+								<div class="zx_basic_information_title">1.商品基本信息</div>
+								<div class="zx_goods_type_box">
+									<div class="zx_goods_type_left">商品类型:</div>
+									<div class="zx_goods_type_right">
+										<span class="zx_bread_crumbs">男装/女装/内衣/童装</span>
+										<span class="zx_gt">&gt</span>
+										<span class="zx_nanzhuang">男装</span>
+										<span class="zx_gt">&gt</span>
+										<span class="zx_jiake">夹克</span>
+									</div>
+								</div>
+								<div class="zx_virtual">
+									<div class="zx_virtual_left">是否使用虚拟券:</div>
+									<div class="zx_virtual_right">
+										<input type="radio" value="true" name="flag" id="true">
+										<label for="nan">是</label>
+										<input type="radio" value="false" name="flag" id="false">
+										<label for="nv">否</label>
+									</div>
+								</div>
+								<div class="zx_goods_name">
+									<div class="zx_goods_name_left">商品名称:</div>
+									<div class="zx_goods_name_right">
+										<input type="text" placeholder="请输入商品名称" />
+									</div>
+								</div>
+								<div class="zx_goods_name_title">
+									<div class="zx_goods_name_title_left">商品标题:</div>
+									<div class="zx_goods_name_title_right">
+										<input type="text" placeholder="请输入商品标题" />
+									</div>
+								</div>
+								<div class="zx_keyword">
+									<div class="zx_keyword_left">关键字:</div>
+									<div class="zx_keyword_right">
+										<input type="text" placeholder="请填写关键字" />
+									</div>
+								</div>
+								<div class="zx_market_price">
+									<div class="zx_market_price_left">市场价:</div>
+									<div class="zx_market_price_right">
+										<input type="text" placeholder="请填写价格" />
+									</div>
+								</div>
+								<div class="zx_ly_price">
+									<div class="zx_ly_price_left">粮易价:</div>
+									<div class="zx_ly_price_right">
+										<input type="text" placeholder="请填写价格" />
+										<div class="zx_tishi">温馨提示:有促销价时填写,低于市场价前台才会显示</div>
+									</div>
+								</div>
+								<div class="zx_goods_attribute_box">
+									<div class="zx_goods_attribute_left">商品属性:</div>
+									<div class="zx_goods_attribute">
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">货号</div>
+											<div class="zx_goods_num_box_right">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">货号</div>
+											<div class="zx_goods_num_box_right">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+										<div class="zx_goods_num_box">
+											<div class="zx_goods_num_box_left">服装口袋设计</div>
+											<div class="zx_goods_num_box_right">
+												<select name="" id="">
+													<option value="">特宽</option>
+													<option value="">无</option>
+													<option value="">超修身</option>
+													<option value="">宽松</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="zx_tishi2">温馨提示:错误填写宝贝属性,可能引起宝贝下架或搜索流量减少,影响您的正常销售,请认真准确填写!</div>
+								<div class="zx_specifications_box">
+									<div class="zx_specifications_box_left">商品规格:</div>
+									<div class="zx_specifications_box_right">
+										<div class="zx_goods_color">颜色</div>
+										<div class="zx_max_color_box">
+											<div class="zx_goods_color_big_box">
+												<div class="zx_goods_color_box">
+													<input type="checkbox" class="zx_color_check" />
+													<input type="text" class="color_val" />
+													<input type="text" class="zx_note" />
+													<label for="">
+							    				<input type="file" value="点击上传图片" class="zx_color_button"/>
+							    				<span class="zx_upload">点击上传图片</span>
+							    	            </label>
+												</div>
+											</div>
+											<div class="zx_color_style_box">
+												<ul class="zx_color_style_box_left">
+													<li class="zx_color_name zx_control">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">白色系</div>
+													</li>
+													<li class="zx_color_name">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">灰色系</div>
+													</li>
+													<li class="zx_color_name">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">红色系</div>
+													</li>
+													<li class="zx_color_name">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">蓝色系</div>
+													</li>
+													<li class="zx_color_name">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">紫色系</div>
+													</li>
+													<li class="zx_color_name">
+														<div class="zx_color_name_img"></div>
+														<div class="zx_color_name_text">棕色系</div>
+													</li>
+
+												</ul>
+												<div class="zx_color_value_big_box">
+													<div class="zx_color_value_box">
+														<div class="zx_color_value_title">常用标准颜色</div>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+														<ul class="zx_color_value_content">
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">乳白色</div>
+															</li>
+															<li class="zx_color_value">
+																<div class="zx_color_value_img"></div>
+																<div class="zx_color_value_text">米白色</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="zx_goods_size">
+											<div class="zx_goods_size_text">尺码</div>
+											<div class="zx_tishi3">温馨提示:可以在下方选择自定义尺码!</div>
+										</div>
+										<div class="zx_goods_size_box">
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>s</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>m</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>l</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>xl</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>2xl</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>3xl</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<span>均码</span>
+											</div>
+											<div class="zx_goods_size_list">
+												<input type="checkbox" class="zx_size_check" />
+												<input type="text" placeholder="自定义尺码" class="zx_custom" />
+											</div>
+										</div>
+										<div class="zx_size_line"></div>
+										<div class="zx_sales_box">
+											<div class="zx_sales_text">商品销售规格</div>
+											<div class="zx_tishi4">温馨提示:该类目下:颜色、尺码,请全选或全不选,库存为0的宝贝规格,在商品详情页不展示</div>
+											<div class="zx_goods_style_box">
+
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="zx_goods_img_box">
+									<div class="zx_goods_img_box_left">商品图片:</div>
+									<div class="zx_goods_img_box_right">
+										<div class="gxr_infor_type">
+											<img src="img/Seller_goods_release/Seller_goods_upload.png" />
+											<div class="gxr_infor_btn">
+												<label for="infor_btn_2">
+                                                   <input type="file" id="infor_btn_2" value=""/>
+                                                   <span class="gxr_infor_btntype">点击上传</span>
+                                                </label>
+											</div>
+										</div>
+										<div class="gxr_infor_type">
+											<img src="img/Seller_goods_release/Seller_goods_upload.png" />
+											<div class="gxr_infor_btn">
+												<label for="infor_btn_2">
+                                                   <input type="file" id="infor_btn_2" value=""/>
+                                                   <span class="gxr_infor_btntype">点击上传</span>
+                                                </label>
+											</div>
+										</div>
+										<div class="gxr_infor_type">
+											<img src="img/Seller_goods_release/Seller_goods_upload.png" />
+											<div class="gxr_infor_btn">
+												<label for="infor_btn_2">
+                                                   <input type="file" id="infor_btn_2" value=""/>
+                                                   <span class="gxr_infor_btntype">点击上传</span>
+                                                </label>
+											</div>
+										</div>
+										<div class="gxr_infor_type">
+											<img src="img/Seller_goods_release/Seller_goods_upload.png" />
+											<div class="gxr_infor_btn">
+												<label for="infor_btn_2">
+                                                   <input type="file" id="infor_btn_2" value=""/>
+                                                   <span class="gxr_infor_btntype">点击上传</span>
+                                                </label>
+											</div>
+										</div>
+										<div class="gxr_infor_type">
+											<img src="img/Seller_goods_release/Seller_goods_upload.png" />
+											<div class="gxr_infor_btn">
+												<label for="infor_btn_2">
+                                                   <input type="file" id="infor_btn_2" value=""/>
+                                                   <span class="gxr_infor_btntype">点击上传</span>
+                                                </label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="zx_goods_long_img">
+									<div class="zx_goods_long_img_left">商品长图:</div>
+									<div class="zx_goods_long_img_right">
+										<div class="zx_tishi5">温馨提示:长图横竖比例必须为2:3,最小长度为480</div>
+										<div class="zx_img_upload_img">
+											<div class="gxr_infor_type gxr_infor_type1">
+												<img src="img/Seller_goods_release/Seller_goods_upload1.png" />
+												<div class="gxr_infor_btn">
+													<label for="infor_btn_2">
+                                                       <input type="file" id="infor_btn_2" value=""/>
+                                                       <span class="gxr_infor_btntype">点击上传</span>
+                                                    </label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="zx_pc_box">
+									<div class="zx_pc_box_left">电脑端描述:</div>
+									<div class="zx_pc_box_right">
+										<textarea name="" rows="" cols=""></textarea>
+									</div>
+								</div>
+								<div class="zx_phone_box">
+									<div class="zx_phone_box_left">手机端描述</div>
+									<div class="zx_phone_box_right">
+										<div class="zx_phone_box_right_top">
+											<a href="javascript:;">导入电脑描述:</a>
+										</div>
+										<div class="zx_phone_box_right_bottom">
+											<textarea name="" rows="" cols=""></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="zx_logistics_service_box">
+								<div class="zx_logistics_service_title">2.物流服务</div>
+								<div class="zx_freight_box">
+									<div class="zx_freight_box_left">运费:</div>
+									<div class="zx_freight_box_right">
+										<div class="zx_freight_box_right_top">
+											<select name="" id="">
+												<option value="">请选择运费模板</option>
+											</select>
+											<a href="javascript:;">
+												<img src="img/Seller_goods_release/Seller_add.png" alt="" />
+											</a>
+										</div>
+										<div class="zx_freight_box_right_bottom">
+											<div class="zx_courier">快递</div>
+											<div class="zx_find_more_box">
+												<a href="javascript:;" class="zx_find_more">查看更多</a>
+												<a href="javascript:;" class="zx_find_more_img"></a>
+
+											</div>
+											<div class="zx_courier_content_text">默认快递:1件内运费0元,每增加一件,加0元</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="zx_other_information_box">
+								<div class="zx_other_information_title">3.其他信息</div>
+								<div class="zx_other_information">
+									<div class="zx_other_information1">
+										<div class="zx_other_information1_left">库存计数:</div>
+										<div class="zx_other_information1_right">
+											<input type="radio" value="买家拍下减" name="ss">
+											<label for="nan">买家拍下减</label>
+											<input type="radio" value="买家付款减" name="ss">
+											<label for="nv">买家付款减</label>
+										</div>
+									</div>
+									<div class="zx_other_information2">
+										<div class="zx_other_information2_left">上架时间:</div>
+										<div class="zx_other_information2_right">
+											<input type="radio" value="立即上架" name="ss">
+											<label for="nan">立即上架</label>
+											<input type="radio" value="定时上架" name="ss">
+											<label for="nv">定时上架</label>
+											<input type="radio" value="放入仓库" name="ss">
+											<label for="nv">放入仓库</label>
+										</div>
+									</div>
+									<div class="zx_time_box">
+										<div class="zx_time_text">设定至</div>
+										<div class="zx_time">
+											<input type="text" placeholder="年-月-日:分:秒" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="zx_btn">
+								<input type="button" name="" id="" value="" />
+							</div>
+						</div>
+						<!--右下部分结束-->
+					</div>
+				</li>
+				<!--右半部分结束-->
+			</ul>
+		</div>
+		<!--主体部分结束-->
+	</body>
+	<script type="text/javascript" src="js/Seller_shop.js"></script>
+
+</html>

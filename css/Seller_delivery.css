@@ -1,0 +1,118 @@
+.zx_delivery_img{
+	width: 210px;
+	height: 36px;
+	margin-top: 18px;
+	margin-left: 20px;
+}
+.zx_logistics_box{
+	width: 581px;
+	height: 81px;
+	background: #ffcc1a;
+	border-top: 1px solid #ffcc1a;
+	border-radius: 6px;
+	margin-top: 40px;
+	margin-left: 23px;
+	box-sizing: border-box;
+	padding: 0 14px;
+}
+.zx_logistics_title{
+	width: 547px;
+	height: 34px;
+	border-bottom: 1px dashed #fff;
+	margin: 0 auto;
+}
+.zx_logistics_title_company{
+	float: left;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	color: #161616;
+	padding-left: 20px;
+}
+.zx_logistics_title_order{
+	float: left;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	color: #161616;
+	margin-left: 100px;
+}
+.zx_logistics_content{
+	height: 45px;
+	border-top: 1px solid #ffcc1a;
+}
+.zx_logistics_classfiy{
+	float: left;
+	width: 107px;
+	height: 25px;
+	border-radius: 4px;
+	background: #fff;
+	margin-top: 10px;
+}
+.zx_logistics_classfiy select{
+	width: 100%;
+	height: 100%;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+.zx_logistics_num{
+	float: left;
+	width: 249px;
+	height: 24px;
+	margin-left: 42px;
+	background: #fff;
+	border-radius:4px;
+	margin-top: 10px;
+}
+.zx_logistics_num input{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+	border-radius:4px;
+	font-size: 14px;
+	color: #161616;
+}
+.zx_logistics_button{
+	width: 73px;
+	height: 24px;
+	float: left;
+	margin-left: 50px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.zx_logistics_button button{
+	background: #fff;
+	border: none;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	list-style: none;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #161616;
+}
+
+.zx_white_box{
+	height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

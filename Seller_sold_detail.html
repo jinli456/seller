@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>sellershop</title>
+		<link rel="stylesheet" type="text/css" href="css/Seller_shop.css" />
+		<link rel="stylesheet" href="css/Seller_sold_detail.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/Seller_shop.js"></script>
+	</head>
+
+	<body>
+		<!--个人中心头部开始-->
+		<div class="gxr_Sellershop_head">
+			<ul class="gxr_Sellershop_logo">
+				<li class="gxr_Sellershop_icon">
+					<img src="img/Seller_shop/logo.png" />
+				</li>
+				<li class="gxr_Sellershop_page">
+					<a data-index="1">首页</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="2">账户设置</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="3">我的店铺</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="4">查看二维码</a><br/>
+				</li>
+			</ul>
+			<img class="gxr_Sellershop_arrow" src="img/Seller_shop/Arrow.png" />
+		</div>
+		<!--个人中心头部结束-->
+		<!--主体部分开始-->
+		<div class="gxr_Sellershop">
+			<ul class="gxr_Sellershop_main">
+				<!--左半部分开始-->
+				<li class="gxr_Sellershop_left">
+					<div class="gxr_Sellershop_class">
+						<dl class="gxr_Sellershop_bpersonal">
+							<!--商品管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Layers.png"/>
+                        <span><b>商品管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品发布</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品列表</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>自定义规格</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--交易管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Tools.png"/>
+                        <span><b>交易管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>已售商品</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>发货地址</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>物流工具</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>我的评论</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--店铺设置-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/shop.png"/>
+                        <span><b>店铺设置</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>店铺设置</a><img src="img/Seller_shop/open.png" /></dd>
+						</dl>
+					</div>
+				</li>
+				<!--左半部分结束-->
+				<!--右半部分开始-->
+				<li class="gxr_Sellershop_right">
+					<div class="gxr_Sellershoptdiv">
+						<!--右上部分开始-->
+						<div class="gxr_shopright_head">
+							<ul class="gxr_shop_rhead">
+								<li class="gxr_Sellershop_info">
+									<img class="gxr_shop_avatar" src="img/Seller_shop/selleravatar.png" />
+									<div class="gxr_shop_state">
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconshop.png" /></div>
+											<span class="gxr_shop_span">店铺：花若兮之卉木萋萋</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconrep.png" /></div>
+											<span class="gxr_shop_spann">店铺信誉：初级
+                                        <span class="gxr_shop_star">
+                                            <img src="img/Seller_shop/iconst.png"/><img src="img/Seller_shop/iconsth.png"/>
+                                        </span>
+											</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconstate.png" /></div>
+											<span class="gxr_shop_spann">店铺状态：已开张，销售中</span>
+										</div>
+										<div class="gxr_shop_list">
+											<span class="gxr_shop_number">上架的商品（<span class="gxr_shop_jian">123</span>）件</span>
+											<span class="gxr_shop_number">已售的商品（<span class="gxr_shop_jian">145</span>）件</span>
+											<span class="gxr_shop_num">买家评价</span>
+										</div>
+									</div>
+								</li>
+								<li class="gxr_Sellershop_dynamic">
+									<div class="gxr_shop_dynamic">
+										<p>店铺动态评分</p>
+										<div class="gxr_shop_branch">
+											<p class="gxr_shop_branchred">9.70</p>
+											<div class="gxr_shop_branchlist">
+												<p>商品：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>服务：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>物流：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/decline.png" /></p>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--右上部分结束-->
+						<!--右下部分开始-->
+						<div class="gxr_Seller_down">
+							<div class="zx_sold_title_img">
+								<img src="img/Seller_sold_detail/sold_title.png" alt="">
+							</div>
+							<div class="zx_order_information_box">
+								<ul class="zx_order_information_title">
+									<li class="zx_order_information_one">
+										<div class="zx_information">订单信息</div>
+										<div class="zx_trading_success">交易成功</div>
+									</li>
+									<li class="zx_order_information_two">会员信息</li>
+									<li class="zx_order_information_two">订单状态</li>
+								</ul>
+								<ul class="zx_order_information_content">
+									<li class="zx_order_information_content_one">
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">收货人:</div>
+											<div class="zx_consignee_name">张三</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">收货地址:</div>
+											<div class="zx_consignee_name">山西省晋中市榆次区</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">买家留言:</div>
+											<div class="zx_consignee_name">宝贝很好</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">订单编号:</div>
+											<div class="zx_consignee_name">17532641851811</div>
+										</div>
+									</li>
+									<li class="zx_order_information_content_one">
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">用户名:</div>
+											<div class="zx_consignee_name">zhangsan</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">电话:</div>
+											<div class="zx_consignee_name">135-1536-4587</div>
+										</div>
+									</li>
+									<li class="zx_order_information_content_one">
+										<div class="zx_consignee_box">
+											<div class="zx_consignee zx_hot">交易成功</div>
+											
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">物流:</div>
+											<div class="zx_consignee_name">到达太原分公司,下一站榆次区分公司</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">运单号:</div>
+											<div class="zx_consignee_name">111235489</div>
+										</div>
+										<div class="zx_consignee_box">
+											<div class="zx_consignee">发货时间:</div>
+											<div class="zx_consignee_name">2017.03.12</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="zx_goods_box_information">
+								<ul class="zx_goods_title_box">
+									<li class="zx_goods_information">商品信息</li>
+									<li class="zx_goods_price">单价</li>
+									<li class="zx_goods_num">数量</li>
+									<li class="zx_goods_coupons">优惠</li>
+									<li class="zx_goods_state">状态</li>
+								</ul>
+								<ul class="zx_goods_box_content">
+									<li class="zx_goods_content_img_box">
+										<div class="zx_goods_content_img">
+											<a href="javascript:;">
+												<img src="" alt="" />
+											</a>
+										</div>
+										<div class="zx_goods_content_text">
+											<p class="zx_goods_desci_text">女装时尚迷你个性修身立领休闲针织外套</p>
+											<p class="zx_goods_size">尺码: <span>xl</span></p>
+											<p class="zx_goods_color">颜色: <span>黄色</span></p>
+										</div>
+									</li>
+									<li class="goods_content_price">￥ <span>155</span></li>
+									<li class="zx_goods_content_num">1</li>
+									<li class="zx_goods_content_coupons">2</li>
+									<li class="zx_goods_content_state">交易完成</li>
+								</ul>
+							</div>
+							<ul class="zx_comprehensive_box">
+								<li class="zx_real_payment">实付款: <span>155.00</span> 元</li>
+								<li class="zx_real_payment">订单总价: <span>155.00</span> 元</li>
+								<li class="zx_real_payment">运费(快递费): <span>155.00</span> 元</li>
+								<li class="zx_real_payment">商品总价: <span>155.00</span> 元</li>
+							</ul>
+							<div class="zx_trading_success2">交易成功!!</div>
+						</div>
+						<!--右下部分结束-->
+					</div>
+				</li>
+				<!--右半部分结束-->
+			</ul>
+		</div>
+		<!--主体部分结束-->
+	</body>
+
+</html>

@@ -1,0 +1,256 @@
+.zx_sold_title_img{
+	width: 877px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.zx_order_information_box{
+	margin-top: 18px;
+	height: auto;
+	box-sizing: border-box;
+	width: 945px;
+	border: 2px solid #ffb90f;
+}
+.zx_order_information_title{
+	padding: 0;
+	height: 34px;
+	width: 945px;
+	background: #ffb90f;
+}
+.zx_order_information_one{
+	float: left;
+	height: 100%;
+	width: 33.3%;
+}
+.zx_information{
+	float: left;
+	padding-left: 28px;
+	font-size: 14px;
+	color: #161616;
+	height: 100%;
+	line-height: 34px;
+}
+.zx_trading_success{
+	float: left;
+	padding-left: 40px;
+	font-size: 14px;
+	color: #fff;
+	height: 100%;
+	line-height: 34px;
+}
+.zx_order_information_two{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+	color: #161616;
+	font-size: 14px;
+}
+.zx_order_information_content{
+	padding: 0;
+	width: 945px;
+	height: 191px;
+}
+.zx_order_information_content_one{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	border-right: 2px solid #ffb90f;
+	padding: 14px 32px 32px 32px;
+}
+.zx_consignee_box{
+	margin-top: 18px;
+	height: auto;
+	overflow: hidden;
+}
+.zx_consignee{
+	text-align: right;
+	width: 66px;
+	float: left;
+	height:auto;
+	font-size: 14px;
+	line-height: 14px;
+	color: #161616;
+}
+.zx_consignee_name{
+	padding-left: 5px;
+	text-align:left;
+	width: 160px;
+	float: left;
+	height: auto;
+	font-size: 14px;
+	line-height: 14px;
+	color: #161616;
+}
+.zx_hot{
+	color: #c70000;
+}
+.zx_goods_box_information{
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: 945px;
+	height: 174px;
+	border: 2px solid #ffb90e;
+}
+.zx_goods_title_box{
+	padding: 0;
+	height: 34px;
+	background: #ffb90e;
+}
+.zx_goods_information{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+	width: 33.3%;
+}
+.zx_goods_price{
+	width: 16.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.zx_goods_num{
+	width: 16.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.zx_goods_coupons{
+	width: 16.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.zx_goods_state{
+	width: 16.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.zx_goods_box_content{
+	height: 140px;
+	padding: 0;
+}
+.zx_goods_content_img_box{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+.zx_goods_content_img{
+	float: left;
+	width: 101px;
+	height: 101px;
+	margin-left: 23px;
+	margin-top: 18px;
+	background: red;
+}
+.zx_goods_content_img a{
+	display: block;
+}
+.zx_goods_content_text{
+	float: left;
+	height: 136px;
+	width: 180px;
+	box-sizing: border-box;
+	padding: 18px 0;
+}
+.zx_goods_desci_text{
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+}
+.zx_goods_size{
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+	margin-top: 18px;
+}
+.zx_goods_color{
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+	margin-top: 0px;
+}
+.goods_content_price{
+	float: left;
+	width: 16.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.zx_goods_content_num{
+	float: left;
+	width: 16.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.zx_goods_content_coupons{
+	float: left;
+	width: 16.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.zx_goods_content_state{
+	float: left;
+	width: 16.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.zx_comprehensive_box{
+	padding: 0;
+	margin-top: 32px;
+	height: 20px;
+	width: 945px;
+}
+.zx_real_payment{
+	float: right;
+	width: 20%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #161616;
+}
+.zx_trading_success2{
+	height: 14px;
+	margin-top: 24px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #d76767;
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 30px;	
+}

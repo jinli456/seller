@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>sellershop</title>
+		<link rel="stylesheet" type="text/css" href="css/Seller_shop.css" />
+		<link rel="stylesheet" type="text/css" href="css/Seller_sold.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/Seller_shop.js"></script>
+		<script src="js/Seller_sold.js"></script>
+	</head>
+
+	<body>
+		<!--个人中心头部开始-->
+		<div class="gxr_Sellershop_head">
+			<ul class="gxr_Sellershop_logo">
+				<li class="gxr_Sellershop_icon">
+					<img src="img/Seller_shop/logo.png" />
+				</li>
+				<li class="gxr_Sellershop_page">
+					<a data-index="1">首页</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="2">账户设置</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="3">我的店铺</a><br/>
+				</li>
+				<li class="gxr_Sellershop_account">
+					<a data-index="4">查看二维码</a><br/>
+				</li>
+			</ul>
+			<img class="gxr_Sellershop_arrow" src="img/Seller_shop/Arrow.png" />
+		</div>
+		<!--个人中心头部结束-->
+		<!--主体部分开始-->
+		<div class="gxr_Sellershop">
+			<ul class="gxr_Sellershop_main">
+				<!--左半部分开始-->
+				<li class="gxr_Sellershop_left">
+					<div class="gxr_Sellershop_class">
+						<dl class="gxr_Sellershop_bpersonal">
+							<!--商品管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Layers.png"/>
+                        <span><b>商品管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品发布</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>商品列表</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>自定义规格</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--交易管理-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/Tools.png"/>
+                        <span><b>交易管理</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>已售商品</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>发货地址</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>物流工具</a><img src="img/Seller_shop/open.png" /></dd>
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>我的评论</a><img src="img/Seller_shop/open.png" /></dd>
+							<!--店铺设置-->
+							<dt class="gxr_Sellershop_bpersonalt">
+                        <img src="img/Seller_shop/shop.png"/>
+                        <span><b>店铺设置</b></span>
+                    </dt>
+							<img class="gxr_Sellershop_shopimg" src="img/Seller_shop/Line.png" />
+							<dd class="gxr_Sellershop_bpersonald">
+								<a>店铺设置</a><img src="img/Seller_shop/open.png" /></dd>
+						</dl>
+					</div>
+				</li>
+				<!--左半部分结束-->
+				<!--右半部分开始-->
+				<li class="gxr_Sellershop_right">
+					<div class="gxr_Sellershoptdiv">
+						<!--右上部分开始-->
+						<div class="gxr_shopright_head">
+							<ul class="gxr_shop_rhead">
+								<li class="gxr_Sellershop_info">
+									<img class="gxr_shop_avatar" src="img/Seller_shop/selleravatar.png" />
+									<div class="gxr_shop_state">
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconshop.png" /></div>
+											<span class="gxr_shop_span">店铺：花若兮之卉木萋萋</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconrep.png" /></div>
+											<span class="gxr_shop_spann">店铺信誉：初级
+                                        <span class="gxr_shop_star">
+                                            <img src="img/Seller_shop/iconst.png"/><img src="img/Seller_shop/iconsth.png"/>
+                                        </span>
+											</span>
+										</div>
+										<div class="gxr_shop_list">
+											<div class="gxr_shop_shop"><img src="img/Seller_shop/iconstate.png" /></div>
+											<span class="gxr_shop_spann">店铺状态：已开张，销售中</span>
+										</div>
+										<div class="gxr_shop_list">
+											<span class="gxr_shop_number">上架的商品（<span class="gxr_shop_jian">123</span>）件</span>
+											<span class="gxr_shop_number">已售的商品（<span class="gxr_shop_jian">145</span>）件</span>
+											<span class="gxr_shop_num">买家评价</span>
+										</div>
+									</div>
+								</li>
+								<li class="gxr_Sellershop_dynamic">
+									<div class="gxr_shop_dynamic">
+										<p>店铺动态评分</p>
+										<div class="gxr_shop_branch">
+											<p class="gxr_shop_branchred">9.70</p>
+											<div class="gxr_shop_branchlist">
+												<p>商品：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>服务：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/rise.png" /></p>
+												<p>物流：<span class="gxr_shop_listnum">4.5</span><img class="gxr_shop_rd" src="img/Seller_shop/decline.png" /></p>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--右上部分结束-->
+						<!--右下部分开始-->
+						<div class="gxr_Seller_down">
+							<div class="zx_sold_title_img">
+								<img src="img/Seller_sold/sold_title.png" alt="">
+							</div>
+							<ul class="zx_sold_title_box">
+								<li class="zx_sold_title zx_borde_top">
+									<a href="javascript:;">所有订单</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">等待付款</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">等待发货</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">已发货</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">已完成</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">申请退货</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;">退货</a>
+								</li>
+								<li class="zx_sold_title">
+									<a href="javascript:;" style="border:0;">关闭交易</a>
+								</li>
+							</ul>
+							<div class="zx_goods_nav">
+								<div class="zx_goods_nav_items">宝贝</div>
+								<div class="zx_zx_goods_nav_price">单价</div>
+								<div class="zx_zx_goods_nav_num">数量</div>
+								<div class="zx_zx_goods_nav_operation">商品操作</div>
+								<div class="zx_zx_goods_nav_sum">总价</div>
+								<div class="zx_zx_goods_nav_state">交易状态</div>
+								<div class="zx_zx_goods_nav_trading_operation">交易操作</div>
+							</div>
+							<ul class="zx_trading_list_box">
+								<li class="zx_trading_one">
+									<div class="zx_trading_one_title">
+										<div class="zx_trading_time">2017-03-02</div>
+										<div class="zx_trading_order_num_box">
+											订单号: <span class="zx_trading_order_num">1705643284598132489</span>
+										</div>
+									</div>
+									<div class="zx_trading_one_content">
+										<div class="zx_trading_one_items">
+											<div class="zx_trading_one_items_img">
+												<a href="javascript:;">
+													<img src="" alt="">
+												</a>
+											</div>
+											<div class="zx_trading_one_text">
+												<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+												</a>
+											</div>
+										</div>
+										<div class="zx_trading_one_price">￥155.00</div>
+										<div class="zx_trading_one_num">1</div>
+										<div class="zx_trading_one_have">已收货</div>
+										<div class="zx_trading_one_sum_price">￥155.00</div>
+										<div class="zx_trading_one_complete">交易完成</div>
+										<div class="zx_trading_one_details">
+											<div class="zx_view_details">
+												<a href="javascript:;">查看详情</a>
+											</div>
+										</div>
+									</div>
+
+								</li>
+								<li class="zx_trading_more">
+									<div class="zx_trading_one_title">
+										<div class="zx_trading_time">2017-03-02</div>
+										<div class="zx_trading_order_num_box">
+											订单号: <span class="zx_trading_order_num">1705643284598132489</span>
+										</div>
+									</div>
+									<div class="zx_trading_more_content">
+										<div class="zx_trading_more_content_left">
+											<div class="zx_trading_more_content_left_line"></div>
+											<div class="zx_trading_more_content_left_one">
+												<div class="zx_trading_one_items">
+													<div class="zx_trading_one_items_img">
+														<a href="javascript:;">
+															<img src="" alt="">
+														</a>
+													</div>
+													<div class="zx_trading_one_text">
+														<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+														</a>
+													</div>
+												</div>
+												<div class="zx_trading_one_price">￥155.00</div>
+												<div class="zx_trading_one_num">1</div>
+												<div class="zx_trading_one_have">已收货</div>
+											</div>
+											<div class="zx_trading_more_content_left_one">
+												<div class="zx_trading_one_items">
+													<div class="zx_trading_one_items_img">
+														<a href="javascript:;">
+															<img src="" alt="">
+														</a>
+													</div>
+													<div class="zx_trading_one_text">
+														<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+														</a>
+													</div>
+												</div>
+												<div class="zx_trading_one_price">￥155.00</div>
+												<div class="zx_trading_one_num">1</div>
+												<div class="zx_trading_one_have">已收货</div>
+											</div>
+                                            <div class="zx_trading_more_content_left_one">
+												<div class="zx_trading_one_items">
+													<div class="zx_trading_one_items_img">
+														<a href="javascript:;">
+															<img src="" alt="">
+														</a>
+													</div>
+													<div class="zx_trading_one_text">
+														<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+														</a>
+													</div>
+												</div>
+												<div class="zx_trading_one_price">￥155.00</div>
+												<div class="zx_trading_one_num">1</div>
+												<div class="zx_trading_one_have">已收货</div>
+											</div>
+										</div>
+										<div class="zx_trading_more_content_right">
+											<div class="zx_trading_more_sum_price">￥155.00</div>
+											<div class="zx_trading_more_complete">交易完成</div>
+											<div class="zx_trading_more_details">
+												<div class="zx_more_details">
+													<a href="javascript:;">查看详情</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="zx_trading_more">
+									<div class="zx_trading_one_title">
+										<div class="zx_trading_time">2017-03-02</div>
+										<div class="zx_trading_order_num_box">
+											订单号: <span class="zx_trading_order_num">1705643284598132489</span>
+										</div>
+									</div>
+									<div class="zx_trading_more_content">
+										<div class="zx_trading_more_content_left">
+											<div class="zx_trading_more_content_left_line"></div>
+											<div class="zx_trading_more_content_left_one">
+												<div class="zx_trading_one_items">
+													<div class="zx_trading_one_items_img">
+														<a href="javascript:;">
+															<img src="" alt="">
+														</a>
+													</div>
+													<div class="zx_trading_one_text">
+														<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+														</a>
+													</div>
+												</div>
+												<div class="zx_trading_one_price">￥155.00</div>
+												<div class="zx_trading_one_num">1</div>
+												<div class="zx_trading_one_have">已收货</div>
+											</div>
+											<div class="zx_trading_more_content_left_one">
+												<div class="zx_trading_one_items">
+													<div class="zx_trading_one_items_img">
+														<a href="javascript:;">
+															<img src="" alt="">
+														</a>
+													</div>
+													<div class="zx_trading_one_text">
+														<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+														</a>
+													</div>
+												</div>
+												<div class="zx_trading_one_price">￥155.00</div>
+												<div class="zx_trading_one_num">1</div>
+												<div class="zx_trading_one_have">已收货</div>
+											</div>
+                                            
+										</div>
+										<div class="zx_trading_more_content_right">
+											<div class="zx_trading_more_sum_price">￥155.00</div>
+											<div class="zx_trading_more_complete">交易完成</div>
+											<div class="zx_trading_more_details">
+												<div class="zx_more_details">
+													<a href="javascript:;">查看详情</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="zx_trading_one">
+									<div class="zx_trading_one_title">
+										<div class="zx_trading_time">2017-03-02</div>
+										<div class="zx_trading_order_num_box">
+											订单号: <span class="zx_trading_order_num">1705643284598132489</span>
+										</div>
+									</div>
+									<div class="zx_trading_one_content">
+										<div class="zx_trading_one_items">
+											<div class="zx_trading_one_items_img">
+												<a href="javascript:;">
+													<img src="" alt="">
+												</a>
+											</div>
+											<div class="zx_trading_one_text">
+												<a href="javascript:;">女装时尚迷彩个性修身立领休闲针织外套#61621104专卖
+												</a>
+											</div>
+										</div>
+										<div class="zx_trading_one_price">￥155.00</div>
+										<div class="zx_trading_one_num">1</div>
+										<div class="zx_trading_one_have">已收货</div>
+										<div class="zx_trading_one_sum_price">￥155.00</div>
+										<div class="zx_trading_one_complete">交易完成</div>
+										<div class="zx_trading_one_details">
+											<div class="zx_view_details">
+												<a href="javascript:;">查看详情</a>
+											</div>
+											<div class="zx_sure_refund">
+												<a href="javascript:;">确认退款</a>
+											</div>
+										</div>
+									</div>
+
+								</li>
+							</ul>
+						</div>
+						<!--右下部分结束-->
+					</div>
+				</li>
+				<!--右半部分结束-->
+			</ul>
+		</div>
+		<!--主体部分结束-->
+	</body>
+	
+
+</html>

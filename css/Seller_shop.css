@@ -1,0 +1,272 @@
+@font-face {
+    font-family:"msyh";
+    src: url("../font/msyh.ttf");
+}
+body{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: msyh;
+}
+a,button{
+    text-decoration:none;
+    cursor: pointer;
+}
+ul,li{
+    list-style: none;
+}
+/*-----个人中心头部开始-----*/
+.gxr_Sellershop_head{
+    background-color: #ffc22e;
+    height: 85px;
+    width: 100%!important;
+}
+.gxr_Sellershop_logo{
+    padding: 0px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.gxr_Sellershop_logo>li{
+    height: 85px;
+    float: left;
+}
+.gxr_Sellershop_icon>img{
+    margin-top: 18px;
+}
+.gxr_Sellershop_page{
+    margin-left: 118px;
+    line-height: 85px;
+    font-size: 18px;
+    color: #161616;
+}
+.gxr_Sellershop_account{
+    margin-left: 60px;
+    line-height: 85px;
+    font-size: 18px;
+    color: #161616;
+}
+.gxr_Sellershop_arrow{
+    clear: both;
+    margin-top: 80px;
+    margin-left: -437px;
+}
+/*-----个人中心头部结束-----*/
+/*-----主体部分开始-----*/
+.gxr_Sellershop{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+.gxr_Sellershop_main{
+    width: 1200px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 165px;
+    padding: 0px;
+    overflow: hidden;
+}
+.gxr_Sellershop_main>li{
+    float: left;
+}
+/*-----左半部分开始-----*/
+.gxr_Sellershop_left{
+    margin: 0px;
+    padding: 0px;
+    width: 232px;
+    height: 810px;
+    overflow: hidden;
+}
+.gxr_Sellershop_class{
+    width: 228px;
+    height: 350px;
+    border: 2px solid #eee;
+}
+.gxr_Sellershop_bpersonal{
+    padding: 0px;
+    margin: 0px;
+}
+.gxr_Sellershop_bpersonalt{
+    height: 22px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+.gxr_Sellershop_bpersonalt>img{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.gxr_Sellershop_bpersonalt>span{
+    float: left;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #161616;
+}
+.gxr_Sellershop_shopimg{
+    display: block;
+    margin-left: 10px;
+    padding: 0px;
+}
+.gxr_Sellershop_bpersonald{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.gxr_Sellershop_bpersonald>a{
+    color: #161616;
+    font-size: 14px;
+    margin-left: 53px;
+}
+.gxr_Sellershop_bpersonald>a:hover{
+    color: #c40012;
+}
+.gxr_Sellershop_bpersonald>img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+/*-----左半部分结束-----*/
+/*-----右半部分开始-----*/
+.gxr_Sellershop_right{
+    width: 968px;
+    height: auto;
+    overflow: hidden;
+}
+.gxr_Sellershoptdiv{
+    padding: 0px;
+    width: 945px;
+    margin-left: 21px;
+    height: auto;
+}
+/*-----右上部分开始-----*/
+.gxr_shopright_head{
+    margin: 0px;
+    padding: 0px;
+    height: 210px;
+    width: 945px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.gxr_shop_rhead{
+    display: block;
+    width: 875px;
+    height: 170px;
+    margin: 20px auto;
+    padding: 0px;
+}
+.gxr_Sellershop_info{
+    float: left;
+    width: 643px;
+    height: 170px;
+    border-right: 1px solid #ffc650;
+}
+.gxr_shop_avatar{
+    float: left;
+    width: 147px;
+    height: 147px;
+    margin-top: 12px;
+}
+.gxr_shop_state{
+    float: left;
+    margin-left: 25px;
+}
+.gxr_shop_list{
+    height: 25px;
+    margin-top: 12px;
+}
+.gxr_shop_shop{
+    float: left;
+}
+.gxr_shop_shop>img{
+    width: 22px;
+    height: 22px;
+}
+.gxr_shop_span{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #161616;
+    font-family: "msyh";
+}
+.gxr_shop_spann{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #161616;
+    font-family: "msyh";
+}
+.gxr_shop_number{
+    font-size: 14px;
+    color: #161616;
+    margin-left: 25px;
+}
+.gxr_shop_num{
+    font-size: 14px;
+    color: #0083ba;
+    margin-left: 25px;
+}
+.gxr_shop_jian{
+    color: #d20000;
+    font-size: 14px;
+}
+.gxr_Sellershop_dynamic{
+    float: left;
+    width: 208px;
+    height: 168px;
+    margin-left: 21px;
+    border: 1px solid #eee;
+}
+.gxr_shop_dynamic{
+    height: 35px;
+    width: 208px;
+    background-color: #eee;
+}
+.gxr_shop_dynamic>p{
+    color: #161616;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0px;
+}
+.gxr_shop_branch{
+    width: 140px;
+    height: 67px;
+    margin: 30px auto;
+}
+.gxr_shop_branchred{
+    float: left;
+    color: #d20000;
+    font-size: 24px;
+    font-family: "msyh";
+}
+.gxr_shop_branchlist{
+    float: left;
+}
+.gxr_shop_branchlist>p{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #161616;
+    font-family: "msyh";
+}
+.gxr_shop_listnum{
+    color: #d20000;
+    font-size: 12px;
+    font-family: "msyh";
+    margin: 0px 5px;
+}
+.gxr_shop_rd{
+    width: 10px;
+    height: 11px;
+}
+/*-----右上部分结束-----*/
+/*----------------------------------------------------------切换内容------------------------------------------------------------*/
+/*----右下部分开始-----*/
+.gxr_Seller_down{
+    height: auto;
+    margin-top: 25px;
+    width: 945px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    padding-bottom: 40px;
+}
+/*----右下部分结束-----*/
+/*-----右半部分结束-----*/
+/*-----主体部分结束-----*/
